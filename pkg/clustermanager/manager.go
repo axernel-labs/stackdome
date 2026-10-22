@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	cmv1 "github.com/cert-manager/cert-manager/pkg/apis/certmanager/v1"
 	cnpgv1 "github.com/cloudnative-pg/cloudnative-pg/api/v1"
 	barmancloudv1 "github.com/cloudnative-pg/plugin-barman-cloud/api/v1"
@@ -36,7 +36,7 @@ type CredentialDecryptor interface {
 	DecryptData(in string) ([]byte, error)
 }
 
-//go:generate mockgen -destination=../mocks/mock_cluster_manager.go -package=mocks github.com/Stackdome/stackdome/pkg/clustermanager ClusterManager
+//go:generate mockgen -destination=../mocks/mock_cluster_manager.go -package=mocks github.com/axernel-labs/stackdome/pkg/clustermanager ClusterManager
 
 // ClusterManager defines the interface for managing clusters
 type ClusterManager interface {

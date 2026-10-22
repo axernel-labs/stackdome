@@ -3,7 +3,7 @@ package services
 import (
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 func TestNodesAndEdgesFromConnectionsDrivesTopology(t *testing.T) {

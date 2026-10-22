@@ -5,9 +5,9 @@ import (
 	stderrors "errors"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/computeaccess"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/computeaccess"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

@@ -43,18 +43,18 @@ jobs:
       - name: Download dependencies
         run: go mod download
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - name: Run unit tests
         run: mage test:unit
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - name: Run e2e tests
         run: make test-integration
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
           DB_HOST: localhost
           DB_PORT: "5432"
           DB_USERNAME: postgres
@@ -63,7 +63,7 @@ jobs:
       - name: Run Stackdome Cloud e2e tests
         run: make test-cloud-integration
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
           DB_HOST: localhost
           DB_PORT: "5432"
           DB_USERNAME: postgres

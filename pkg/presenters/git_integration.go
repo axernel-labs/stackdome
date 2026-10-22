@@ -1,9 +1,9 @@
 package presenters
 
 import (
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/clients/githubapp"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/clients/githubapp"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 func ConvertGitIntegration(in *openapi.GitIntegration) *models.GitIntegration {

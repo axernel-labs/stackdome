@@ -3,8 +3,8 @@ package validator
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 type SecretValidator interface {
@@ -12,7 +12,7 @@ type SecretValidator interface {
 	ValidateSecretType(secretType models.SecretType, secret *models.Secret) *errors.ServiceError
 }
 
-//go:generate mockgen -destination=../mocks/mock_stack_validator.go -package=mocks github.com/Stackdome/stackdome/pkg/validator StackValidator
+//go:generate mockgen -destination=../mocks/mock_stack_validator.go -package=mocks github.com/axernel-labs/stackdome/pkg/validator StackValidator
 type StackValidator interface {
 	ValidateForCreate(ctx context.Context, spec *models.Stack) *errors.ServiceError
 	ValidateForUpdate(ctx context.Context, existing *models.Stack, spec *models.Stack) *errors.ServiceError

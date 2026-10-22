@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	apperrors "github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/signupprotection"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	apperrors "github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/signupprotection"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

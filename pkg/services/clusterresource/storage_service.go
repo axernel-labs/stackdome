@@ -3,7 +3,7 @@ package clusterresource
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 type StackStorageClusterResourceService interface {

@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/clients"
-	"github.com/Stackdome/stackdome/pkg/clustermanager"
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/clients"
+	"github.com/axernel-labs/stackdome/pkg/clustermanager"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"github.com/samber/lo"
 	"golang.org/x/time/rate"
 	corev1 "k8s.io/api/core/v1"
@@ -36,9 +36,9 @@ var ErrNoWorkload = stderrors.New("no workload found")
 // inject a factory returning a mock; production uses clients.NewKubernetesClient.
 type KubernetesClientFactory func(clients.KubernetesClientSpec) (clients.KubernetesClient, error)
 
-//go:generate mockgen -destination=db_cluster_service_mock.go -package=clusterresource github.com/Stackdome/stackdome/pkg/services/clusterresource DBClusterService
-//go:generate mockgen -destination=kubernetes_client_mock.go -package=clusterresource github.com/Stackdome/stackdome/pkg/clients KubernetesClient
-//go:generate mockgen -destination=cluster_manager_mock.go -package=clusterresource github.com/Stackdome/stackdome/pkg/clustermanager ClusterManager
+//go:generate mockgen -destination=db_cluster_service_mock.go -package=clusterresource github.com/axernel-labs/stackdome/pkg/services/clusterresource DBClusterService
+//go:generate mockgen -destination=kubernetes_client_mock.go -package=clusterresource github.com/axernel-labs/stackdome/pkg/clients KubernetesClient
+//go:generate mockgen -destination=cluster_manager_mock.go -package=clusterresource github.com/axernel-labs/stackdome/pkg/clustermanager ClusterManager
 
 type ResourceError struct {
 	ResourceName string

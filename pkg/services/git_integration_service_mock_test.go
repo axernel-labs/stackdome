@@ -12,7 +12,7 @@ package services
 import (
 	reflect "reflect"
 
-	git "github.com/Stackdome/stackdome/pkg/clients/git"
+	git "github.com/axernel-labs/stackdome/pkg/clients/git"
 	gomock "go.uber.org/mock/gomock"
 )
 

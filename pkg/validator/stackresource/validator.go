@@ -3,9 +3,9 @@ package stackresource
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 //go:generate mockgen -source=validator.go -destination=validator_mock_test.go -package=stackresource
@@ -16,7 +16,7 @@ import (
 // than not-found (e.g. a DB outage) and validation was aborted; the caller
 // should turn it into a 500 rather than trusting the (nil) FieldError slice.
 //
-//go:generate mockgen -destination=../../mocks/mock_stack_resource_validator.go -package=mocks github.com/Stackdome/stackdome/pkg/validator/stackresource Validator
+//go:generate mockgen -destination=../../mocks/mock_stack_resource_validator.go -package=mocks github.com/axernel-labs/stackdome/pkg/validator/stackresource Validator
 type Validator interface {
 	Validate(ctx context.Context, stack *models.Stack, resource *models.StackResource, siblings []*models.StackResource) ([]errors.FieldError, *errors.ServiceError)
 }

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	openapi "github.com/Stackdome/stackdome/pkg/api/openapi"
+	openapi "github.com/axernel-labs/stackdome/pkg/api/openapi"
 )
 
 type Resolver interface {

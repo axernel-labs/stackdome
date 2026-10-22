@@ -3,8 +3,8 @@ package presenters_test
 import (
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
 	"k8s.io/utils/ptr"
 )
 

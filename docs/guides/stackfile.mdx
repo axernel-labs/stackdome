@@ -4,12 +4,12 @@ description: "Create a Stackfile from your application files, review it, and val
 keywords: ["create Stackfile", "stackdome init", "stackdome validate", "stackfile.yaml", "Docker Compose conversion"]
 ---
 
-This guide uses the public [Stackdome demo repository](https://github.com/Stackdome/stackdome-demo), a three-service application with a Next.js web resource, a background worker, Redis, and persistent data.
+This guide uses the public [Stackdome demo repository](https://github.com/axernel-labs/stackdome-demo), a three-service application with a Next.js web resource, a background worker, Redis, and persistent data.
 
 Clone it and run `stackdome init` beside its Compose file:
 
 ```bash
-git clone https://github.com/Stackdome/stackdome-demo.git
+git clone https://github.com/axernel-labs/stackdome-demo.git
 cd stackdome-demo/hello-stack
 stackdome init --name hello-stack
 ```
@@ -55,7 +55,7 @@ For agent workflows, the Compose file is input evidence rather than the final co
 
 `stackdome init` creates a draft. Make these changes before deploying:
 
-- Set `build.repo` for `web` and `worker` to `https://github.com/Stackdome/stackdome-demo.git`.
+- Set `build.repo` for `web` and `worker` to `https://github.com/axernel-labs/stackdome-demo.git`.
 - Change the `web` context from `./web` to `hello-stack/web`.
 - Change the `worker` context from `./worker` to `hello-stack/worker`.
 - Add the environment variables used by the application.
@@ -69,7 +69,7 @@ name: hello-stack
 resources:
   web:
     build:
-      repo: https://github.com/Stackdome/stackdome-demo.git
+      repo: https://github.com/axernel-labs/stackdome-demo.git
       branch: main
       context: hello-stack/web
     ports:
@@ -88,7 +88,7 @@ resources:
 
   worker:
     build:
-      repo: https://github.com/Stackdome/stackdome-demo.git
+      repo: https://github.com/axernel-labs/stackdome-demo.git
       branch: main
       context: hello-stack/worker
     env:

@@ -3,7 +3,7 @@ package validation
 import (
 	"reflect"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 type Validate func() *errors.ServiceError

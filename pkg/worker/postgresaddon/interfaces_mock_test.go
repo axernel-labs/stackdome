@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	errors "github.com/Stackdome/stackdome/pkg/errors"
-	models "github.com/Stackdome/stackdome/pkg/models"
+	errors "github.com/axernel-labs/stackdome/pkg/errors"
+	models "github.com/axernel-labs/stackdome/pkg/models"
 	gomock "go.uber.org/mock/gomock"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )

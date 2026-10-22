@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/install"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/install"
 	k8svalidation "k8s.io/apimachinery/pkg/util/validation"
 )
 

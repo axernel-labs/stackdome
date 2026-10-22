@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/Stackdome/stackdome/cmd/environment"
-	"github.com/Stackdome/stackdome/cmd/server"
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/cmd/environment"
+	"github.com/axernel-labs/stackdome/cmd/server"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/db"
 	"github.com/go-logr/logr"
 )
 

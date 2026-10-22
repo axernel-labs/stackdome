@@ -9,8 +9,8 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/mock/gomock"
 
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 )
 
 var _ = Describe("imageBuildHandler.StreamLogs", func() {

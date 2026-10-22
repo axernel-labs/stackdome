@@ -11,8 +11,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/cmd/environment"
-	"github.com/Stackdome/stackdome/config"
+	"github.com/axernel-labs/stackdome/cmd/environment"
+	"github.com/axernel-labs/stackdome/config"
 )
 
 const openAPISpecPath = "../../config/openapi/stackdome_api.yaml"

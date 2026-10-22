@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

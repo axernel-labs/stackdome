@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/computequota"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/computequota"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"github.com/go-logr/stdr"
 )
 

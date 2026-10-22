@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"k8s.io/client-go/util/workqueue"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/install"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/install"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

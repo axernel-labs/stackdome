@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 func handleError(w http.ResponseWriter, code errors.ServiceErrorCode, reason string) {

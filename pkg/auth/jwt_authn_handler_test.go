@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/auth"
 )
 
 var _ = Describe("jwtAuthnHandler", func() {

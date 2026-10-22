@@ -124,7 +124,7 @@ Each row's **⋯** menu holds the actions available for that kind of provider.
 | **Manage on GitHub** | GitHub App providers only. Opens the app's installation page on GitHub. |
 | **Remove integration** | Both. Confirms with *"Remove this integration?"* — *"Repositories using this integration lose access for clones."* |
 
-**Verify repository access** is the cheapest way to find out whether a token actually works, before a build depends on it. It opens a dialog — *"Confirms the &lt;host&gt; integration can access a repository."* — with one field, **Repository URL**. For this guide, use `https://github.com/Stackdome/stackdome-demo`. Stackdome then tries a real access check against that repository.
+**Verify repository access** is the cheapest way to find out whether a token actually works, before a build depends on it. It opens a dialog — *"Confirms the &lt;host&gt; integration can access a repository."* — with one field, **Repository URL**. For this guide, use `https://github.com/axernel-labs/stackdome-demo`. Stackdome then tries a real access check against that repository.
 
 - Success is a **Repository access verified** toast.
 - Failure is a **Couldn't verify repository access** toast carrying the reason, most often `verification failed for '<url>': <what the provider said>`.

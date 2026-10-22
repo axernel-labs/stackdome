@@ -3,9 +3,9 @@ package servecmd
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/cmd/environment"
-	"github.com/Stackdome/stackdome/cmd/server"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/cmd/environment"
+	"github.com/axernel-labs/stackdome/cmd/server"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"github.com/spf13/cobra"
 )
 

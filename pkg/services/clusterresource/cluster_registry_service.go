@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/pkg/clustermanager"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/clustermanager"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	k8sapierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -15,7 +15,7 @@ import (
 	registryv1alpha1 "stackdome.io/cluster-agent/api/registry/v1alpha1"
 )
 
-//go:generate mockgen -destination=../../mocks/mock_cluster_resource_image_registry_service.go -package=mocks -mock_names=ClusterImageRegistryService=MockClusterResourceImageRegistryService github.com/Stackdome/stackdome/pkg/services/clusterresource ClusterImageRegistryService
+//go:generate mockgen -destination=../../mocks/mock_cluster_resource_image_registry_service.go -package=mocks -mock_names=ClusterImageRegistryService=MockClusterResourceImageRegistryService github.com/axernel-labs/stackdome/pkg/services/clusterresource ClusterImageRegistryService
 
 type ClusterImageRegistryService interface {
 	EnsureImageRegistryInCluster(ctx context.Context, registry *models.ClusterImageRegistry) *ClusterResourceError

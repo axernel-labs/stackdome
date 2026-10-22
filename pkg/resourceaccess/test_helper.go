@@ -3,7 +3,7 @@ package resourceaccess
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 )

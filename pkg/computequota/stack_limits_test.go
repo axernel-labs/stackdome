@@ -1,7 +1,7 @@
 package computequota
 
 import (
-	stackerrors "github.com/Stackdome/stackdome/pkg/errors"
+	stackerrors "github.com/axernel-labs/stackdome/pkg/errors"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	gomega "github.com/onsi/gomega"
 )

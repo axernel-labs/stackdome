@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/services/clusterresource"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/services/clusterresource"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 type registryPrerequisiteReconciler struct {

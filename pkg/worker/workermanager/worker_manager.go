@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/observability"
-	workerlib "github.com/Stackdome/stackdome/pkg/worker"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/observability"
+	workerlib "github.com/axernel-labs/stackdome/pkg/worker"
 )
 
 // TODO: set a reasonable value for this based on metrics and testing.

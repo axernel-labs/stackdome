@@ -3,8 +3,8 @@ package environment
 import (
 	"fmt"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 )
 
 var log = logger.NewLogger()

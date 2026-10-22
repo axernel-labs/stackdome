@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
 )
 
 // idStreamObject implements interfaces.StreamObjectWithID.

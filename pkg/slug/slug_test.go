@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/slug"
+	"github.com/axernel-labs/stackdome/pkg/slug"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

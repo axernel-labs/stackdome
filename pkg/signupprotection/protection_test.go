@@ -6,7 +6,7 @@ import (
 	"net/netip"
 	"time"
 
-	apperrors "github.com/Stackdome/stackdome/pkg/errors"
+	apperrors "github.com/axernel-labs/stackdome/pkg/errors"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	corev1alpha1 "stackdome.io/cluster-agent/api/core/v1alpha1"

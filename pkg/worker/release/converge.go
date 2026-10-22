@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	buildsv1alpha1 "stackdome.io/cluster-agent/api/builds/v1alpha1"
 )
 

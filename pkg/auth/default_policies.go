@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/Stackdome/stackdome/pkg/models"
+import "github.com/axernel-labs/stackdome/pkg/models"
 
 const resourceAddonsAny = ResourceAddons + "/*"
 

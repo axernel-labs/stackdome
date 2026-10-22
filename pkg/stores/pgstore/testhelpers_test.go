@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	stderrors "errors"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/db"
 	sqlitedriver "github.com/glebarez/go-sqlite"
 	"github.com/glebarez/sqlite"
 	. "github.com/onsi/gomega"

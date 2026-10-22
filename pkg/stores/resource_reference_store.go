@@ -3,11 +3,11 @@ package stores
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
-//go:generate mockgen -destination=../mocks/mock_resource_reference_store.go -package=mocks github.com/Stackdome/stackdome/pkg/stores ResourceReferenceStore
+//go:generate mockgen -destination=../mocks/mock_resource_reference_store.go -package=mocks github.com/axernel-labs/stackdome/pkg/stores ResourceReferenceStore
 type ResourceReferenceStore interface {
 	// ReplaceSpecWithTx deletes all spec-scoped rows (release_id IS NULL) for the
 	// stack and reinserts refs. Must run inside a transaction.

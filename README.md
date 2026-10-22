@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Stackdome/stackdome/releases"><img src="https://img.shields.io/github/v/release/Stackdome/stackdome" alt="Latest release"></a>
-  <a href="https://github.com/Stackdome/stackdome/actions/workflows/lint.yaml"><img src="https://github.com/Stackdome/stackdome/actions/workflows/lint.yaml/badge.svg" alt="Lint"></a>
+  <a href="https://github.com/axernel-labs/stackdome/releases"><img src="https://img.shields.io/github/v/release/axernel-labs/stackdome" alt="Latest release"></a>
+  <a href="https://github.com/axernel-labs/stackdome/actions/workflows/lint.yaml"><img src="https://github.com/axernel-labs/stackdome/actions/workflows/lint.yaml/badge.svg" alt="Lint"></a>
   <a href="https://discord.gg/D97V6sFYqV"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
@@ -41,7 +41,7 @@ Install the Stackdome skill, or point your agent at [agents.stackdome.com](https
 Your agent gets the full delivery loop: create stacks, deploy, tail releases, and debug from a prompt.
 
 ```bash
-npx skills add stackdome/stackdome-skills
+npx skills add axernel-labs/stackdome-skills
 ```
 
 Then, in your agent:
@@ -107,13 +107,13 @@ Full walkthrough: [Self-host guide](https://docs.stackdome.com/self-host/install
 
 | Repo | What it is |
 |------|------------|
-| [stackdome](https://github.com/Stackdome/stackdome) | This repo, the hub: API server, web UI, and docs |
-| [cluster-agent](https://github.com/Stackdome/cluster-agent) | Kubernetes operator that runs on each connected cluster |
-| [stackdome-cli](https://github.com/Stackdome/stackdome-cli) | The `stackdome` command-line interface |
+| [stackdome](https://github.com/axernel-labs/stackdome) | This repo, the hub: API server, web UI, and docs |
+| [cluster-agent](https://github.com/axernel-labs/cluster-agent) | Kubernetes operator that runs on each connected cluster |
+| [stackdome-cli](https://github.com/axernel-labs/stackdome-cli) | The `stackdome` command-line interface |
 
 ## Community & contributing
 
 - [Discord](https://discord.gg/D97V6sFYqV): questions, feedback, launch chatter
-- [Issues](https://github.com/Stackdome/stackdome/issues): bugs and feature requests
+- [Issues](https://github.com/axernel-labs/stackdome/issues): bugs and feature requests
 - [DEVELOPMENT.md](DEVELOPMENT.md): build and hack on Stackdome itself
 

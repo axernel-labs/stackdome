@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/test/int/bootstrap"
+	"github.com/axernel-labs/stackdome/test/int/bootstrap"
 )
 
 var cloudEnv = &bootstrap.Environment{}

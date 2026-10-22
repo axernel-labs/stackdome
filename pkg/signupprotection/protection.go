@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/Stackdome/stackdome/pkg/clients/turnstile"
-	apperrors "github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/clients/turnstile"
+	apperrors "github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 const (

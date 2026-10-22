@@ -3,7 +3,7 @@ package services
 import (
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // statefulImages are datastores that corrupt when two instances write the same

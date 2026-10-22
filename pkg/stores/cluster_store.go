@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
-//go:generate mockgen -destination=../mocks/mock_cluster_store.go -package=mocks github.com/Stackdome/stackdome/pkg/stores ClusterStore
+//go:generate mockgen -destination=../mocks/mock_cluster_store.go -package=mocks github.com/axernel-labs/stackdome/pkg/stores ClusterStore
 type ClusterStore interface {
 	Create(ctx context.Context, spec *models.Cluster) (*models.Cluster, *errors.ServiceError)
 	CreateWithTx(ctx context.Context, spec *models.Cluster) (*models.Cluster, *errors.ServiceError)

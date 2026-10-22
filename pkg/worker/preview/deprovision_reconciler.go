@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 type deprovisionReconciler struct {

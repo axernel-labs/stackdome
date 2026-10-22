@@ -6,8 +6,8 @@ package stackdeploy
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 //go:generate mockgen -source=resolver.go -destination=mock_resolver_dependencies_test.go -package=stackdeploy

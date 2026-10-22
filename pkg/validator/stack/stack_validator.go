@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stackdeploy"
-	"github.com/Stackdome/stackdome/pkg/validator"
-	"github.com/Stackdome/stackdome/pkg/validator/stackresource"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stackdeploy"
+	"github.com/axernel-labs/stackdome/pkg/validator"
+	"github.com/axernel-labs/stackdome/pkg/validator/stackresource"
 )
 
 const (

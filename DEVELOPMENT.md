@@ -43,6 +43,22 @@ The system follows a **hub-and-spoke model**:
 - [mage](https://magefile.org)
 - jq
 
+## macOS SDK troubleshooting
+
+If `go build ./...` fails during linking with `unknown architecture arm64e.x1`
+in a `MacOSX27.0.sdk` `.tbd` file, the selected SDK is incompatible with the
+installed linker. Select a compatible SDK already installed on your machine.
+For example, with macOS 26.5 SDK installed:
+
+```bash
+SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk go build ./...
+```
+
+You can use the same `SDKROOT` setting for `go test` or `mage`. Updating the
+Command Line Tools to a version compatible with the selected SDK is the
+long-term fix. For the production-style build that does not need CGO, use
+`CGO_ENABLED=0 go build ./...`, as the release workflow does.
+
 ## Quick Start
 
 ### One-Command Setup (Recommended)
@@ -285,7 +301,7 @@ curl -X POST -H "Authorization: Bearer $TOKEN" \
 
 ## Custom Resources
 
-The cluster agent reconciles these CRDs (defined in the [cluster-agent](https://github.com/Stackdome/cluster-agent) repo):
+The cluster agent reconciles these CRDs (defined in the [cluster-agent](https://github.com/axernel-labs/cluster-agent) repo):
 
 | CRD | API Group | Description |
 |-----|-----------|-------------|

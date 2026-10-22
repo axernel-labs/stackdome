@@ -3,11 +3,11 @@ package stores
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
-//go:generate mockgen -destination=../mocks/mock_cluster_image_registry_store.go -package=mocks github.com/Stackdome/stackdome/pkg/stores ClusterImageRegistryStore
+//go:generate mockgen -destination=../mocks/mock_cluster_image_registry_store.go -package=mocks github.com/axernel-labs/stackdome/pkg/stores ClusterImageRegistryStore
 
 type ClusterImageRegistryStore interface {
 	GetByID(ctx context.Context, ID string) (*models.ClusterImageRegistry, *errors.ServiceError)

@@ -3,7 +3,7 @@ name: stackdome
 resources:
   api-server:
     build:
-      repo: https://github.com/Stackdome/stackdome
+      repo: https://github.com/axernel-labs/stackdome
       branch: main
       dockerfile: Dockerfile.preview
       context: .
