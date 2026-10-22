@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/observability"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/observability"
 	"github.com/gorilla/mux"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

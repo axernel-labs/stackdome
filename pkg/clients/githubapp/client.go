@@ -74,7 +74,7 @@ type RepoPage struct {
 	HasNext    bool
 }
 
-//go:generate mockgen -destination=../../mocks/mock_githubapp_client.go -package=mocks -mock_names Client=MockGitHubAppClient github.com/Stackdome/stackdome/pkg/clients/githubapp Client
+//go:generate mockgen -destination=../../mocks/mock_githubapp_client.go -package=mocks -mock_names Client=MockGitHubAppClient github.com/axernel-labs/stackdome/pkg/clients/githubapp Client
 type Client interface {
 	// ConvertManifestCode exchanges the temporary code from the manifest
 	// redirect for the newly created app's credentials.

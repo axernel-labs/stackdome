@@ -3,16 +3,16 @@ package services
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/stores/pgstore"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/stores/pgstore"
 )
 
-//go:generate mockgen -destination=../mocks/mock_image_build_service.go -package=mocks github.com/Stackdome/stackdome/pkg/services ImageBuildService
+//go:generate mockgen -destination=../mocks/mock_image_build_service.go -package=mocks github.com/axernel-labs/stackdome/pkg/services ImageBuildService
 type ImageBuildService interface {
 	InternalCreate(ctx context.Context, resourceBuild *models.ImageBuild) (*models.ImageBuild, *errors.ServiceError)
 	InternalUpdateStatus(ctx context.Context, BuildID string, status *models.ImageBuildStatus) *errors.ServiceError

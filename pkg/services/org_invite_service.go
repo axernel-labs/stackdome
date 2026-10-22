@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 const (

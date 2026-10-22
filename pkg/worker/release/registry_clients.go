@@ -3,8 +3,8 @@ package release
 import (
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/clients"
-	"github.com/Stackdome/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/clients"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
 )
 
 //go:generate mockgen -source=registry_clients.go -destination=registry_clients_mock.go -package=release

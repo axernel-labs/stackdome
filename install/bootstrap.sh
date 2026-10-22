@@ -84,7 +84,7 @@ release_tag=${STACKDOME_VERSION:-@STACKDOME_VERSION@}
 [ -n "$release_tag" ] || fail 'STACKDOME_VERSION is required' 'release version unavailable'
 [ "$release_tag" != '@STACKDOME_VERSION@' ] || fail 'STACKDOME_VERSION is required' 'release version unavailable'
 
-release_base_url=${STACKDOME_RELEASE_BASE_URL:-https://github.com/Stackdome/stackdome/releases/download}
+release_base_url=${STACKDOME_RELEASE_BASE_URL:-https://github.com/axernel-labs/stackdome/releases/download}
 
 umask 077
 tmp_dir=$(mktemp -d "${TMPDIR:-/tmp}/stackdome-install.XXXXXX") || fail 'unable to create temporary directory' 'temporary directory creation failed'

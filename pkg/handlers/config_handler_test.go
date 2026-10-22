@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
 )
 
 func TestConfigHandler_Get(t *testing.T) {

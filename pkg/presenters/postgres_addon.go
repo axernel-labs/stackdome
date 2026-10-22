@@ -3,8 +3,8 @@ package presenters
 import (
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // ConvertPostgresAddon converts API PostgresAddon to domain model

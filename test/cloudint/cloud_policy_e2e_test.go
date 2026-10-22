@@ -18,12 +18,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/computeaccess"
-	serviceerrors "github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/test/int/bootstrap"
-	"github.com/Stackdome/stackdome/test/int/shared"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/computeaccess"
+	serviceerrors "github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/test/int/bootstrap"
+	"github.com/axernel-labs/stackdome/test/int/shared"
 	registryv1alpha1 "stackdome.io/cluster-agent/api/registry/v1alpha1"
 )
 
@@ -249,7 +249,7 @@ var _ = Describe("Stackdome Cloud compute policy", Ordered, func() {
 		err := cloudEnv.Cluster.GetClient().Get(ctx, client.ObjectKey{Name: cloudEnv.RegistryName}, clusterRegistry)
 		Expect(apierrors.IsNotFound(err)).To(BeTrue())
 
-		buildStackSpec := shared.CreateStackWithBuildSource("cloud-build", "https://github.com/Stackdome/test-repo.git")
+		buildStackSpec := shared.CreateStackWithBuildSource("cloud-build", "https://github.com/axernel-labs/test-repo.git")
 		buildStackSpec.Spec.StackResources[0].Source.Git.SetDockerfilePath("docker/Dockerfile.prod")
 		buildStack = shared.CreateStack(
 			cloudEnv.Client,

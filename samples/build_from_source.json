@@ -21,7 +21,7 @@
         ],
         "source": {
           "git": {
-            "repo_url": "https://github.com/Stackdome/test-repo.git",
+            "repo_url": "https://github.com/axernel-labs/test-repo.git",
             "branch": {
               "name": "main"
             },

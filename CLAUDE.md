@@ -97,7 +97,7 @@ Superpowers is the workflow **spine** for all tasks: `superpowers:brainstorming`
 
 ### Issue tracker
 
-Issues and PRDs live in the `Stackdome/stackdome` GitHub repo (via the `gh` CLI). See `docs/agents/issue-tracker.md`.
+Issues and PRDs live in the `axernel-labs/stackdome` GitHub repo (via the `gh` CLI). See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

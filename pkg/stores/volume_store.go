@@ -3,8 +3,8 @@ package stores
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 //go:generate mockgen -source=volume_store.go -destination=../mocks/mock_volume_store.go -package=mocks

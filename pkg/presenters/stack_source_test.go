@@ -3,9 +3,9 @@ package presenters_test
 import (
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
 )
 
 func convertSingleResource(t *testing.T, source *openapi.SourceSpec) *models.StackResource {

@@ -14,9 +14,9 @@ import (
 	reflect "reflect"
 	time "time"
 
-	errors "github.com/Stackdome/stackdome/pkg/errors"
-	models "github.com/Stackdome/stackdome/pkg/models"
-	stores "github.com/Stackdome/stackdome/pkg/stores"
+	errors "github.com/axernel-labs/stackdome/pkg/errors"
+	models "github.com/axernel-labs/stackdome/pkg/models"
+	stores "github.com/axernel-labs/stackdome/pkg/stores"
 	gomock "go.uber.org/mock/gomock"
 )
 

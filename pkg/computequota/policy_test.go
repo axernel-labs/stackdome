@@ -3,9 +3,9 @@ package computequota
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/computeaccess"
-	stackerrors "github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/computeaccess"
+	stackerrors "github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	gomega "github.com/onsi/gomega"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/mocks"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/mocks"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"go.uber.org/mock/gomock"
 )
 

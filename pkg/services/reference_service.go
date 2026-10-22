@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/stores/pgstore"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/stores/pgstore"
 )
 
-//go:generate mockgen -destination=../mocks/mock_reference_service.go -package=mocks github.com/Stackdome/stackdome/pkg/services ReferenceService
+//go:generate mockgen -destination=../mocks/mock_reference_service.go -package=mocks github.com/axernel-labs/stackdome/pkg/services ReferenceService
 type ReferenceService interface {
 	ReprojectSpec(ctx context.Context, stackID string) *errors.ServiceError
 	ProjectRelease(ctx context.Context, release *models.StackRelease) *errors.ServiceError

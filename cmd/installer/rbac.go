@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Stackdome/stackdome/install"
+	"github.com/axernel-labs/stackdome/install"
 )
 
 const apiServerServiceAccountSecret = "stackdome-api-server-account-secret"

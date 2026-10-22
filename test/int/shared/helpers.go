@@ -9,8 +9,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // PostgreSQL addon CRUD operations for Ginkgo tests

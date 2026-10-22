@@ -31,7 +31,7 @@ jobs:
       - name: Download dependencies
         run: go mod download
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - uses: golangci/golangci-lint-action@v8
         with:

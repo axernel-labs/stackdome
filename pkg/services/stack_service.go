@@ -5,21 +5,21 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/computequota"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/stores/pgstore"
-	"github.com/Stackdome/stackdome/pkg/validator"
-	stackvalidator "github.com/Stackdome/stackdome/pkg/validator/stack"
-	stackresourcevalidator "github.com/Stackdome/stackdome/pkg/validator/stackresource"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/computequota"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/stores/pgstore"
+	"github.com/axernel-labs/stackdome/pkg/validator"
+	stackvalidator "github.com/axernel-labs/stackdome/pkg/validator/stack"
+	stackresourcevalidator "github.com/axernel-labs/stackdome/pkg/validator/stackresource"
 	"k8s.io/utils/ptr"
 )
 
-//go:generate mockgen -destination=stack_service_mock.go -package=services -self_package=github.com/Stackdome/stackdome/pkg/services github.com/Stackdome/stackdome/pkg/services StackService
+//go:generate mockgen -destination=stack_service_mock.go -package=services -self_package=github.com/axernel-labs/stackdome/pkg/services github.com/axernel-labs/stackdome/pkg/services StackService
 type StackService interface {
 	CreateStack(ctx context.Context, spec *models.Stack) (*models.Stack, *errors.ServiceError)
 	UpdateStack(ctx context.Context, ID string, spec *models.Stack) (*models.Stack, *errors.ServiceError)

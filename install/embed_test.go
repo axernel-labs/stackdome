@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/gomega"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Stackdome/stackdome/install"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/install"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 func TestInstall(t *testing.T) {

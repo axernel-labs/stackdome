@@ -12,8 +12,8 @@ package release
 import (
 	reflect "reflect"
 
-	clients "github.com/Stackdome/stackdome/pkg/clients"
-	credentials "github.com/Stackdome/stackdome/pkg/credentials"
+	clients "github.com/axernel-labs/stackdome/pkg/clients"
+	credentials "github.com/axernel-labs/stackdome/pkg/credentials"
 	gomock "go.uber.org/mock/gomock"
 )
 

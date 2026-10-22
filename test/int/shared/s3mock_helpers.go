@@ -1,6 +1,6 @@
 package shared
 
-import "github.com/Stackdome/stackdome/pkg/testutil"
+import "github.com/axernel-labs/stackdome/pkg/testutil"
 
 // Re-export MinIO constants from testutil for use in test specs and fixtures.
 const (

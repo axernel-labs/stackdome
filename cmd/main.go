@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Stackdome/stackdome/cmd/migratecmd"
-	"github.com/Stackdome/stackdome/cmd/servecmd"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/cmd/migratecmd"
+	"github.com/axernel-labs/stackdome/cmd/servecmd"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"github.com/spf13/cobra"
 )
 

@@ -11,10 +11,10 @@ import (
 	"k8s.io/utils/ptr"
 	buildsv1alpha1 "stackdome.io/cluster-agent/api/builds/v1alpha1"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/mocks"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/services/clusterresource"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/mocks"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/services/clusterresource"
 )
 
 func startedBuild() *models.ImageBuild {

@@ -3,7 +3,7 @@ package validation
 import (
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/utils/ptr"
 )

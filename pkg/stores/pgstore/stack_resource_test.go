@@ -3,10 +3,10 @@ package pgstore_test
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/stores/pgstore"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/stores/pgstore"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
@@ -68,7 +68,7 @@ var _ = Describe("StackResourceStore", func() {
 			Name:    "test",
 			BuildConfig: &models.BuildConfigSpec{
 				SourceContext: models.BuildContextSource{
-					Git: &models.GitBuildSource{RepoURL: "https://github.com/Stackdome/test-repo"},
+					Git: &models.GitBuildSource{RepoURL: "https://github.com/axernel-labs/test-repo"},
 				},
 				DockerfilePath:          "Dockerfile",
 				ContextPathWithinSource: ".",
@@ -103,7 +103,7 @@ var _ = Describe("StackResourceStore", func() {
 
 			Expect(fetched.BuildConfig).NotTo(BeNil())
 			Expect(fetched.BuildConfig.SourceContext.Git).NotTo(BeNil())
-			Expect(fetched.BuildConfig.SourceContext.Git.RepoURL).To(Equal("https://github.com/Stackdome/test-repo"))
+			Expect(fetched.BuildConfig.SourceContext.Git.RepoURL).To(Equal("https://github.com/axernel-labs/test-repo"))
 			Expect(fetched.ImageConfig).To(BeNil())
 			Expect(fetched.Schedule).To(BeEmpty())
 			Expect(fetched.WorkloadType).To(Equal(models.WorkloadTypeService))

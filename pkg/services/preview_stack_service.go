@@ -9,16 +9,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/auth"
-	gitclient "github.com/Stackdome/stackdome/pkg/clients/git"
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
-	"github.com/Stackdome/stackdome/pkg/stackfile"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	gitclient "github.com/axernel-labs/stackdome/pkg/clients/git"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/stackfile"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 	"github.com/joho/godotenv"
 	"k8s.io/utils/ptr"
 )
@@ -27,7 +27,7 @@ import (
 // stackfile env for a preview environment.
 const PreviewEnvFile = ".env.preview"
 
-//go:generate mockgen -destination=preview_stack_service_mock.go -package=services -self_package=github.com/Stackdome/stackdome/pkg/services github.com/Stackdome/stackdome/pkg/services PreviewStackService
+//go:generate mockgen -destination=preview_stack_service_mock.go -package=services -self_package=github.com/axernel-labs/stackdome/pkg/services github.com/axernel-labs/stackdome/pkg/services PreviewStackService
 type PreviewStackService interface {
 	BackgroundJobEnqueuerInjectable
 	Create(ctx context.Context, preview *models.PreviewStack) (*models.PreviewStack, *errors.ServiceError)

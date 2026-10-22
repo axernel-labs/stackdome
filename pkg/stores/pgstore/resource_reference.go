@@ -3,10 +3,10 @@ package pgstore
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 type ResourceReferenceStoreSpec struct {

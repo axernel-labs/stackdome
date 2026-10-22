@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 // ReleaseEventRecorder's mock lives in-package (not pkg/mocks): the interface's
 // Record method references ReleaseEventInput, so a pkg/mocks mock would import
 // services and close an import cycle (services -> auth -> mocks -> services).
 // This mirrors the NamespaceService pattern above.
-//go:generate mockgen -source=release_event_recorder.go -destination=release_event_recorder_mock.go -package=services -self_package=github.com/Stackdome/stackdome/pkg/services
+//go:generate mockgen -source=release_event_recorder.go -destination=release_event_recorder_mock.go -package=services -self_package=github.com/axernel-labs/stackdome/pkg/services
 
 type ReleaseEventInput struct {
 	Release      *models.StackRelease

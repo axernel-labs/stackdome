@@ -3,12 +3,12 @@ package services
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	gitclient "github.com/Stackdome/stackdome/pkg/clients/git"
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	gitclient "github.com/axernel-labs/stackdome/pkg/clients/git"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 type StackPreviewConfigService interface {

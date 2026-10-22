@@ -9,11 +9,11 @@ import (
 
 	buildsv1alpha1 "stackdome.io/cluster-agent/api/builds/v1alpha1"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/services/clusterresource"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/services/clusterresource"
 )
 
 type LoggingParams struct {
@@ -59,8 +59,8 @@ func NewLoggingParams(queryValues url.Values) (*LoggingParams, error) {
 	return l, nil
 }
 
-//go:generate mockgen -destination=image_build_service_mock.go -package=services github.com/Stackdome/stackdome/pkg/services ImageBuildService
-//go:generate mockgen -destination=cluster_logging_service_mock.go -package=services github.com/Stackdome/stackdome/pkg/services/clusterresource ClusterLoggingService
+//go:generate mockgen -destination=image_build_service_mock.go -package=services github.com/axernel-labs/stackdome/pkg/services ImageBuildService
+//go:generate mockgen -destination=cluster_logging_service_mock.go -package=services github.com/axernel-labs/stackdome/pkg/services/clusterresource ClusterLoggingService
 
 type LoggingService interface {
 	StreamLogsForStackResource(ctx context.Context, orgID string, stackID string, stackResourceName string, options *LoggingParams) (interfaces.ServerSideStreamable, *errors.ServiceError)

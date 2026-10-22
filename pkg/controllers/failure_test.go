@@ -3,8 +3,8 @@ package controllers_test
 import (
 	"testing"
 
-	"github.com/Stackdome/stackdome/pkg/controllers"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/controllers"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"k8s.io/utils/ptr"

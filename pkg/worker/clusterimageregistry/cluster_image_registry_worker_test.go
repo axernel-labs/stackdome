@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/mocks"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/worker"
+	"github.com/axernel-labs/stackdome/pkg/mocks"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/worker"
 	"go.uber.org/mock/gomock"
 )
 

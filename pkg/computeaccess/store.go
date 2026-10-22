@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 // ComputeAccessActivation describes the entitlement an organisation receives.

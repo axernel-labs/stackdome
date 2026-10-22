@@ -39,7 +39,7 @@ jobs:
       - name: Download dependencies
         run: go mod download
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - name: Install Mage
         run: go install github.com/magefile/mage@latest
@@ -47,7 +47,7 @@ jobs:
       - name: Unit tests
         run: mage test:unit
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - uses: golangci/golangci-lint-action@v8
         with:
@@ -99,7 +99,7 @@ jobs:
       - name: Download dependencies
         run: go mod download
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - uses: pnpm/action-setup@v4
         with:
@@ -124,7 +124,7 @@ jobs:
       - name: Build binary
         run: CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/linux_amd64/stackdome-server cmd/main.go
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - uses: docker/setup-buildx-action@v3
 
@@ -163,7 +163,7 @@ jobs:
       - name: Build installer
         run: CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/stackdome-install ./cmd/installer
         env:
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
 
       - name: Configure SSH
         run: |

@@ -11,11 +11,11 @@ import (
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/mocks"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/mocks"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
 )
 
 var _ = Describe("releaseEventStreamer", func() {

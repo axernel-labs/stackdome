@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 //go:generate mockgen -source=stack_release_store.go -destination=../mocks/mock_stack_release_store.go -package=mocks

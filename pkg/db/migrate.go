@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/Stackdome/stackdome/pkg/db/migrations"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/db/migrations"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/gorm"
 )

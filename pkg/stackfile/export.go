@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	openapi "github.com/Stackdome/stackdome/pkg/api/openapi"
+	openapi "github.com/axernel-labs/stackdome/pkg/api/openapi"
 )
 
 // FromStack converts an API Stack document back into a Stackfile.

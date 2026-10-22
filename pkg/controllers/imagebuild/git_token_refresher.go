@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/clients/githubapp"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/clients/githubapp"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

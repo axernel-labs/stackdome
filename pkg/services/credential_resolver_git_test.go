@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	gitclient "github.com/Stackdome/stackdome/pkg/clients/git"
-	"github.com/Stackdome/stackdome/pkg/clients/githubapp"
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	gitclient "github.com/axernel-labs/stackdome/pkg/clients/git"
+	"github.com/axernel-labs/stackdome/pkg/clients/githubapp"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"go.uber.org/mock/gomock"
 )
 

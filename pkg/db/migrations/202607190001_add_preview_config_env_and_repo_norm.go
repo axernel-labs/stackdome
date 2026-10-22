@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-gormigrate/gormigrate/v2"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"gorm.io/gorm"
 )
 

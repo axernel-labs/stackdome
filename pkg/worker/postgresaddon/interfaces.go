@@ -4,8 +4,8 @@ package postgresaddon
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

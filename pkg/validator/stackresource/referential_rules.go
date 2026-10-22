@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // validateReferences checks that everything the resource points at outside

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/clients"
+	"github.com/axernel-labs/stackdome/pkg/clients"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/google/go-containerregistry/pkg/registry"
 	"github.com/google/go-containerregistry/pkg/v1/random"

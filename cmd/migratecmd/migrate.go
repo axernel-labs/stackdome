@@ -3,9 +3,9 @@ package migratecmd
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/cmd/environment"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/cmd/environment"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 	"github.com/spf13/cobra"
 )
 

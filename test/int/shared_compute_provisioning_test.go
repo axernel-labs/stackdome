@@ -14,12 +14,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/slug"
-	"github.com/Stackdome/stackdome/test/int/bootstrap"
-	"github.com/Stackdome/stackdome/test/int/shared"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/slug"
+	"github.com/axernel-labs/stackdome/test/int/bootstrap"
+	"github.com/axernel-labs/stackdome/test/int/shared"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

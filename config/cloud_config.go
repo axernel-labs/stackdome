@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/computequota"
+	"github.com/axernel-labs/stackdome/pkg/computequota"
 	"gopkg.in/yaml.v3"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/apimachinery/pkg/util/validation"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Stackdome/stackdome/install"
+	"github.com/axernel-labs/stackdome/install"
 )
 
 func isTLSDomain(domain string) bool {

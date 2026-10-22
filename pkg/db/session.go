@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/config"
+	"github.com/axernel-labs/stackdome/config"
 	"gorm.io/gorm"
 )
 

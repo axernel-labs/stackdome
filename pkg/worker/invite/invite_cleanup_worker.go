@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/services"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/worker"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/services"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/worker"
 	"github.com/openshift-online/ocm-sdk-go/leadership"
 )
 

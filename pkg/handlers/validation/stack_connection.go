@@ -1,8 +1,8 @@
 package validation
 
 import (
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 // ValidateStackConnection validates the structurally-required fields of a stack

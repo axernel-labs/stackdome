@@ -1,6 +1,6 @@
 package config
 
-import "github.com/Stackdome/stackdome/pkg/models"
+import "github.com/axernel-labs/stackdome/pkg/models"
 
 var (
 	ErrIncompleteSharedComputeClusterConfig = &ConfigError{"SHARED_COMPUTE_CLUSTER_API_URL, SHARED_COMPUTE_CLUSTER_CA_DATA and SHARED_COMPUTE_CLUSTER_TOKEN must all be set together"}

@@ -12,10 +12,10 @@ import (
 	"go.uber.org/mock/gomock"
 	"k8s.io/utils/ptr"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/mocks"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/mocks"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 var _ = Describe("apiTokenService", func() {

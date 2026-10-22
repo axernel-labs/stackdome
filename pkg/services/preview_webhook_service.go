@@ -3,10 +3,10 @@ package services
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 // PullRequestAction is the GitHub pull_request webhook action that triggered
@@ -32,7 +32,7 @@ type PullRequestEvent struct {
 	Action         PullRequestAction
 }
 
-//go:generate mockgen -destination=preview_webhook_service_mock.go -package=services -self_package=github.com/Stackdome/stackdome/pkg/services github.com/Stackdome/stackdome/pkg/services PreviewWebhookService
+//go:generate mockgen -destination=preview_webhook_service_mock.go -package=services -self_package=github.com/axernel-labs/stackdome/pkg/services github.com/axernel-labs/stackdome/pkg/services PreviewWebhookService
 type PreviewWebhookService interface {
 	HandlePullRequest(ctx context.Context, ev PullRequestEvent) *errors.ServiceError
 }

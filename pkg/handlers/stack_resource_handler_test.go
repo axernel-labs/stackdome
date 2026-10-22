@@ -9,9 +9,9 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/mock/gomock"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/logger"
 )
 
 var _ = Describe("stackResourceHandler.StreamLogs", func() {

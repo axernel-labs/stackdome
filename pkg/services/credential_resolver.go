@@ -3,12 +3,12 @@ package services
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/clients"
-	gitclient "github.com/Stackdome/stackdome/pkg/clients/git"
-	"github.com/Stackdome/stackdome/pkg/clients/githubapp"
-	"github.com/Stackdome/stackdome/pkg/credentials"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/clients"
+	gitclient "github.com/axernel-labs/stackdome/pkg/clients/git"
+	"github.com/axernel-labs/stackdome/pkg/clients/githubapp"
+	"github.com/axernel-labs/stackdome/pkg/credentials"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // The resolver types live in pkg/credentials so packages the services layer

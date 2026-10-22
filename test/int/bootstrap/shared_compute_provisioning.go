@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/testutil"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/testutil"
 )
 
 // SharedComputeProvisioningBaseDomain is the platform routing domain used by

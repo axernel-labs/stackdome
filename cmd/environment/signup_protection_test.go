@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"github.com/Stackdome/stackdome/config"
-	"github.com/Stackdome/stackdome/pkg/signupprotection"
+	"github.com/axernel-labs/stackdome/config"
+	"github.com/axernel-labs/stackdome/pkg/signupprotection"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

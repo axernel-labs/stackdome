@@ -7,10 +7,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Stackdome/stackdome/pkg/api/openapi"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/test/int/shared"
+	"github.com/axernel-labs/stackdome/pkg/api/openapi"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/test/int/shared"
 )
 
 // Fixture values for the validation specs below. Kept local to this file
@@ -30,7 +30,7 @@ const (
 
 	// validationDefaultBranchRepoURL is a small public repo already used by
 	// other build-from-source fixtures in this suite (see samples/build_from_source.json).
-	validationDefaultBranchRepoURL = "https://github.com/Stackdome/test-repo.git"
+	validationDefaultBranchRepoURL = "https://github.com/axernel-labs/test-repo.git"
 
 	validationBadBranchName = "does-not-exist-xyz"
 

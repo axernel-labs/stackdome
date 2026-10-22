@@ -44,7 +44,7 @@ jobs:
       - name: Download dependencies
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/Stackdome/*
+          GOPRIVATE: github.com/ashishmax31/*,stackdome.io/*,github.com/axernel-labs/*
         run: |
           credential_config=$(mktemp)
           trap 'rm -f "$credential_config"' EXIT

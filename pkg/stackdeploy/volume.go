@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 func (r *Resolver) resolveVolumeConnections(ctx context.Context, stack *models.Stack) error {

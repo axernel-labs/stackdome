@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	errors "github.com/Stackdome/stackdome/pkg/errors"
-	models "github.com/Stackdome/stackdome/pkg/models"
-	clusterresource "github.com/Stackdome/stackdome/pkg/services/clusterresource"
+	errors "github.com/axernel-labs/stackdome/pkg/errors"
+	models "github.com/axernel-labs/stackdome/pkg/models"
+	clusterresource "github.com/axernel-labs/stackdome/pkg/services/clusterresource"
 	gomock "go.uber.org/mock/gomock"
 )
 

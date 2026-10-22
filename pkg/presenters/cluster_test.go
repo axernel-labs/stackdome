@@ -1,8 +1,8 @@
 package presenters_test
 
 import (
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

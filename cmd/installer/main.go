@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Stackdome/stackdome/install"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/install"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 const (

@@ -3,7 +3,7 @@ package stores
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 // Interface to run a function with a DB transaction.

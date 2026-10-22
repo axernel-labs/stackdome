@@ -9,7 +9,7 @@ import (
 	"go.uber.org/mock/gomock"
 	buildsv1alpha1 "stackdome.io/cluster-agent/api/builds/v1alpha1"
 
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 var _ = Describe("deadlineReconciler", func() {

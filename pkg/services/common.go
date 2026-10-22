@@ -1,6 +1,6 @@
 package services
 
-import "github.com/Stackdome/stackdome/pkg/services/clusterresource"
+import "github.com/axernel-labs/stackdome/pkg/services/clusterresource"
 
 // Aliases: the deps type and injectable interface are defined in the
 // clusterresource leaf package so that generated mocks of services

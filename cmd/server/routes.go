@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/api"
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/handlers"
-	"github.com/Stackdome/stackdome/pkg/web"
+	"github.com/axernel-labs/stackdome/pkg/api"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/handlers"
+	"github.com/axernel-labs/stackdome/pkg/web"
 	"github.com/gorilla/mux"
 )
 

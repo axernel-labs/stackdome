@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	gitclient "github.com/Stackdome/stackdome/pkg/clients/git"
-	"github.com/Stackdome/stackdome/pkg/clients/githubapp"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	gitclient "github.com/axernel-labs/stackdome/pkg/clients/git"
+	"github.com/axernel-labs/stackdome/pkg/clients/githubapp"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 //go:generate mockgen -source=git_integration_service.go -destination=git_integration_service_mock_test.go -package=services -exclude_interfaces GitIntegrationService
@@ -27,7 +27,7 @@ func (defaultVerifyGitClientProvider) ClientFor(repoURL string, creds gitclient.
 	return gitclient.NewGitClientForRepo(repoURL, creds)
 }
 
-//go:generate mockgen -destination=../mocks/mock_git_integration_service.go -package=mocks github.com/Stackdome/stackdome/pkg/services GitIntegrationService
+//go:generate mockgen -destination=../mocks/mock_git_integration_service.go -package=mocks github.com/axernel-labs/stackdome/pkg/services GitIntegrationService
 type GitIntegrationService interface {
 	Create(ctx context.Context, integration *models.GitIntegration) (*models.GitIntegration, *errors.ServiceError)
 	GetByID(ctx context.Context, ID string) (*models.GitIntegration, *errors.ServiceError)

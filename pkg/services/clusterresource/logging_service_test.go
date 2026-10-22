@@ -19,9 +19,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client/interceptor"
 	buildsv1alpha1 "stackdome.io/cluster-agent/api/builds/v1alpha1"
 
-	"github.com/Stackdome/stackdome/pkg/clients"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/clients"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
 )
 
 // stubLogParams satisfies the LoggingParams interface for tests.

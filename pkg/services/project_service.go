@@ -6,17 +6,17 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Stackdome/stackdome/pkg/auth"
-	"github.com/Stackdome/stackdome/pkg/db"
-	"github.com/Stackdome/stackdome/pkg/errors"
-	"github.com/Stackdome/stackdome/pkg/logger"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/resourceaccess"
-	"github.com/Stackdome/stackdome/pkg/stores"
-	"github.com/Stackdome/stackdome/pkg/stores/pgstore"
+	"github.com/axernel-labs/stackdome/pkg/auth"
+	"github.com/axernel-labs/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/logger"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/resourceaccess"
+	"github.com/axernel-labs/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/stores/pgstore"
 )
 
-//go:generate mockgen -destination=../mocks/mock_project_service.go -package=mocks github.com/Stackdome/stackdome/pkg/services ProjectService
+//go:generate mockgen -destination=../mocks/mock_project_service.go -package=mocks github.com/axernel-labs/stackdome/pkg/services ProjectService
 
 type ProjectService interface {
 	CreateProject(ctx context.Context, orgID string, project *models.Project) (*models.Project, *errors.ServiceError)

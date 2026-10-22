@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/computequota"
+	"github.com/axernel-labs/stackdome/pkg/computequota"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

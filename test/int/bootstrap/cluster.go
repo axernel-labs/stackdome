@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/testutil"
+	"github.com/axernel-labs/stackdome/pkg/testutil"
 	"github.com/go-logr/logr"
 	"github.com/go-logr/stdr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

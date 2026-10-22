@@ -1,6 +1,6 @@
 package computequota
 
-import "github.com/Stackdome/stackdome/pkg/errors"
+import "github.com/axernel-labs/stackdome/pkg/errors"
 
 type StackLimitOperation string
 

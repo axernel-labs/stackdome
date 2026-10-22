@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/computeaccess"
-	"github.com/Stackdome/stackdome/pkg/db"
+	"github.com/axernel-labs/stackdome/pkg/computeaccess"
+	"github.com/axernel-labs/stackdome/pkg/db"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

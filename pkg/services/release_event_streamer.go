@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Stackdome/stackdome/pkg/interfaces"
-	"github.com/Stackdome/stackdome/pkg/models"
-	"github.com/Stackdome/stackdome/pkg/presenters"
-	"github.com/Stackdome/stackdome/pkg/stores"
+	"github.com/axernel-labs/stackdome/pkg/interfaces"
+	"github.com/axernel-labs/stackdome/pkg/models"
+	"github.com/axernel-labs/stackdome/pkg/presenters"
+	"github.com/axernel-labs/stackdome/pkg/stores"
 )
 
 // releaseEventStreamPollInterval is how often the streamer polls the event

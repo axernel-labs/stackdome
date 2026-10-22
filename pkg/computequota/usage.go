@@ -3,7 +3,7 @@ package computequota
 import (
 	"context"
 
-	"github.com/Stackdome/stackdome/pkg/errors"
+	"github.com/axernel-labs/stackdome/pkg/errors"
 )
 
 type ComputeUsage struct {

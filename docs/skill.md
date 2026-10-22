@@ -12,7 +12,7 @@ metadata:
 Install the maintained skill:
 
 ```bash
-npx skills add stackdome/skills
+npx skills add axernel-labs/stackdome-skills
 ```
 
 Follow [CLI workflows](/reference/cli-workflows) for authentication, Stackfile setup, deployment, checks, and failure handling.

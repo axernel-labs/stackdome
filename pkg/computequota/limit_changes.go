@@ -1,6 +1,6 @@
 package computequota
 
-import "github.com/Stackdome/stackdome/pkg/models"
+import "github.com/axernel-labs/stackdome/pkg/models"
 
 // VolumeLimitChange describes a proposed volume creation.
 type VolumeLimitChange struct {
